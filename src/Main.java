@@ -5,7 +5,9 @@ public class Main {
 	private static final ISubscriber subscribers [] = {
 			new SimpleSubscriber(),
 			new ReallySimpleSubscriber(),
-                        new CircleCircumference()
+			new CircleCircumference(),
+			new SphereVolume()
+
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
@@ -18,4 +20,3 @@ public class Main {
 	}
 }
 
-}

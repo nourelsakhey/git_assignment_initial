@@ -1,10 +1,7 @@
 
 public class CircleCircumference implements ISubscriber {
 
-    public CircleCircumference() {
-
-    }
- 
+    public CircleCircumference() { }
     @Override
 	public void notifySubscriber(String input){
            double x= Double.parseDouble(input);
