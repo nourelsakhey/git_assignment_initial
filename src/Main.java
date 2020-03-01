@@ -6,12 +6,14 @@ public class Main {
 			new SimpleSubscriber(),
 
 			new ReallySimpleSubscriber(),
+
 			new CircleCircumference(),
 			new SphereVolume(),
                         new SummationSeries()
 
 			
 			
+
 
 
 	};
