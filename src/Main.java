@@ -9,9 +9,10 @@ public class Main {
 
 			new CircleCircumference(),
 			new SphereVolume(),
-            new SummationSeries(),
-            new MultiplicationSeries(),
-			new CircleArea()
+            		new SummationSeries(),
+            		new MultiplicationSeries(),
+			new CircleArea(),
+			new TwoPowerN()
 
 			
 			
