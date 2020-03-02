@@ -1,21 +1,20 @@
 package main;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- *
- * @author m_h
- */
 public class Fibonacci implements ISubscriber {
    @Override
-   public  void notifySubscriber(long n) {
-      if ((n == 0) || (n == 1))
-         System.out.println("Fibonacci of "+ n + " = " + n );
-      else
-         System.out.println("Fibonacci of " + n + " = " + Get_Fibonacci(n - 1) + Get_Fibonacci(n - 2));
+   public  void notifySubscriber(int n) {
+     int num1 = 0, num2 = 1;
+        System.out.println("How may numbers you want in the sequence:");
+        System.out.print("Fibonacci Series of "+n+" numbers:");
+
+        int i=1;
+        while(i<=n)
+        {
+            System.out.print(num1+" ");
+            int sumOfPrevTwo = num1 + num2;
+            num1 = num2;
+            num2 = sumOfPrevTwo;
+            i++;
+        }
    }
 }
