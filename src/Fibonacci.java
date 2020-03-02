@@ -1,4 +1,4 @@
-package javaapplication1;
+package main;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -10,11 +10,12 @@ package javaapplication1;
  *
  * @author m_h
  */
-public class Fibonacci {
-   public  long Get_Fibonacci(long n) {
+public class Fibonacci implements ISubscriber {
+   @Override
+   public  void notifySubscriber(long n) {
       if ((n == 0) || (n == 1))
-         return n;
+         System.out.println("Fibonacci of "+ n + " = " + n );
       else
-         return Get_Fibonacci(n - 1) + Get_Fibonacci(n - 2);
+         System.out.println("Fibonacci of " + n + " = " + Get_Fibonacci(n - 1) + Get_Fibonacci(n - 2));
    }
 }
