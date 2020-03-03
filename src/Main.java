@@ -9,12 +9,9 @@ public class Main {
 
 			new CircleCircumference(),
 			new SphereVolume(),
-			new BallVolume(),
-            		new SummationSeries(),
-            		new MultiplicationSeries(),
-			new CircleArea(),
-			new TwoPowerN(),
-			new Fibonacci()
+            new SummationSeries(),
+            new MultiplicationSeries(),
+			new LucasSeries()
 
 			
 			
@@ -30,6 +27,10 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		String input = sc.next();
 		mathTopic.dispatchEvent(input);
+		
+		LucasSeries lucasSeries = new LucasSeries();
+		int x = sc.nextInt();
+		lucasSeries.fibonacci(x);
 	}
 }
 

@@ -1,7 +1,6 @@
 public class SummationSeries implements ISubscriber
 { 
-    public SummationSeries() {
-}
+    public SummationSeries() {}
 
     int factorial(int t)
     {
