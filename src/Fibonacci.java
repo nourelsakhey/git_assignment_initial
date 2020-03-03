@@ -1,6 +1,7 @@
 
 public class Fibonacci implements ISubscriber {
    @Override
+   
    public  void notifySubscriber(String input) {
        int n = Integer.parseInt(input);
      int num1 = 0, num2 = 1;
