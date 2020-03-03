@@ -13,7 +13,8 @@ public class Main {
             		new SummationSeries(),
             		new MultiplicationSeries(),
 			new CircleArea(),
-			new TwoPowerN()
+			new TwoPowerN(),
+			new Fibonacci()
 
 			
 			
