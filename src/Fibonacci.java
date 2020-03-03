@@ -1,8 +1,8 @@
-package main;
 
 public class Fibonacci implements ISubscriber {
    @Override
-   public  void notifySubscriber(int n) {
+   public  void notifySubscriber(String input) {
+       int n = Integer.parseInt(input);
      int num1 = 0, num2 = 1;
         System.out.println("How may numbers you want in the sequence:");
         System.out.print("Fibonacci Series of "+n+" numbers:");
