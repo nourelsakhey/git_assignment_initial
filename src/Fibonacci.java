@@ -1,5 +1,5 @@
 package main;
-
+//20160198
 public class Fibonacci implements ISubscriber {
    @Override
    public  void notifySubscriber(int n) {
