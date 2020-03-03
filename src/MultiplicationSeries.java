@@ -1,3 +1,5 @@
+//Name: Abdelrahman Hesham Shaker
+//ID: 20170152
 import java.math.BigDecimal;
 
 public class MultiplicationSeries implements ISubscriber {
